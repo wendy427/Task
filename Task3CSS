@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding:0;
+	margin:0;
+} 
+body{
+	background-color:#68cdd5;
+	width:100%;
+	height:100%
+	}
+.button{
+	margin-top:20px;
+	margin-left:35px;
+	}
+.brand{
+	text-align:center;
+	margin-top:10%;
+	}
+.text{
+	margin:10% 14%;
+	font-size:1.2em;
+	color:white;
+	font-family: "Microsoft YaHei";
+	line-height:1.8;
+	text-align: justify;
+	}
+
+.buttom{
+	width:100%
+	}
+.left{
+	float:left;
+	margin:0 auto 16% 14%;
+    width:22%;
+	}
+
+.right{
+	float:right;
+	margin:0 14% 16% auto;
+	width:22%;
+	}
+
+.buttom div img{
+	width:60%;
+	display:block;
+	margin:0 auto;
+	max-width:84px;
+	}
+.buttom div p{
+	line-height: 2.1;
+	text-align:center;
+	font-size:1em;
+	color:#FFF;
+	}
