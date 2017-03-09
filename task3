@@ -1,3 +1,35 @@
-将本地文件task1_10通过git上传到github error Repository branch:master
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />  
+<!--可以让网页的宽度自动适应手机屏幕的宽度。 -->
+<title>无标题文档</title>
+<link href="mystyle.css" rel="stylesheet" type="text/css"  />
 
-选择指定文件夹A（test01）右键Git Bash Here >输入git clone https://github.com/【github user name】/【待同步repository name】.git >将待同步文件拖入文件夹A里repository name的文件夹B里>文件夹B git init >git add 【待上传文件夹名】>git commit -m “相关信息” >git push
+
+</head>
+
+<body>
+
+  <div class="button">
+      <img src="images/task3_03.png"/> 
+  </div>
+  <div class="brand">
+      <img src="images/task3_07.png" /> </div>
+  <div class="text">
+      <p>葡萄藤轻游戏专注于桌游领域，提供在线杀人游戏，捉鬼，炸狼堡等多种聚会游戏，以下线下聚会桌游道具。
+      </p>
+  </div>
+  <div class="buttom">
+      <div class="left">
+         <img src="images/task3_08.png"/>
+         <p>290560933</p>
+      </div>
+      <div class="right">
+          <img src="images/task3_09.png"/>
+          <p>BJPTTeng</p>
+  </div>
+</div>
+</body>
+</html>
