@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;padding:0;
+	}
+html{
+	
+	font-size:62.5%;}
+body{
+	background-color:#EFF0F4;
+	font-family:'微软雅黑';
+	}
+header {
+	text-align: center;
+	background-color: #5fc0cd;
+	padding: 4%;
+}
+.container {
+    position: relative;
+    color: #fff;
+ }
+.close{
+	color:#FFF;
+	position: absolute;
+    left:4%;
+    font-size: 3rem;
+	}
+.login{
+	color:#FFF;
+	font-size: 3.6rem;
+	}
+.register{
+	color:#FFF;
+	position: absolute;
+    right: 4%;
+    font-size: 3rem;
+}
+input{
+	outline:none;
+	border:0;
+	
+	font-size:3.2em;
+	vertical-align: middle;
+
+	}
+input[type="text"]{
+	margin-left:3%;
+	position:absolute;
+	top:0;
+	bottom:0;
+	color:#E7EAEC;
+	width:80%;
+	}
+input[type="password"]{
+	margin-left:3%;
+	position:absolute;
+	top:0;
+	bottom:0;
+	color:#E7EAEC;
+	width:80%;
+	}
+.tel,.password{
+	background-color:#FFF;
+	margin-top:20px;
+	max-width:100%;
+	padding:4% 0 4%;
+	position:relative;
+}
+img{
+	max-width: 100%;
+    max-height: 100%;
+	padding-left:5%;}
+.password{
+	margin-bottom:40px;}
+input[type="button"]{
+	font-size:3.6rem;
+	color:white;
+	background-color:#5FC0CD;
+	width:100%;
+	height:10rem;
+	}
+.attach{
+	font-size:3.2rem;
+	float:right;
+	margin-top:2rem;
+	margin-right:4%;
+	}
+a{
+	text-decoration:none;
+	color:#5FC0CD;
+	}
+.blanket{
+	margin-top:40%;
+	}
+
