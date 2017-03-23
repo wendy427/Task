@@ -1,0 +1,189 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+header {
+	background-color: #5ec0ce;
+	height: 8vh;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	overflow: hidden;
+}
+
+.top {
+	width: 12rem;
+	background-color: #55a8b3;
+	height: 6vh;
+	margin: 1vh auto;
+	/*使文字居中显示*/
+	border-radius: 0.5rem;
+}
+
+.top span {
+	height: 6vh;
+	line-height: 6vh;
+	/*文字达到垂直居中的效果*/
+	border-radius: 0.5rem;
+	display: inline-block;
+	/*只有block、inline-block才能设置宽高*/
+	width: 50%;
+	font-size: 1.8rem;
+}
+
+.left {
+	color: #eaf4f5;
+}
+
+.right {
+	color: #5fc0cd;
+	background-color: #ffffff;
+}
+
+.cat-1 {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url(image/result.png) no-repeat 0px -88px;
+	position: absolute;
+	margin-top: -6.2vh;
+	right: 2%;
+	background-size: 52px;
+}/*雪碧图*/
+
+.menu {
+	position: fixed;
+	top: 8vh;
+	height: 4vh;
+	width: 100%;
+	font-size: 1.6rem;
+	background: #FFFFFF;
+	border-bottom: 1px solid #999;
+	padding: 1%;
+}
+
+select {
+	width: 32%;
+	color: #999999;
+	border: none;
+	border-right: 1px solid #999999;
+}
+
+select:last-child {
+	border-right: none;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	height: 10vh;
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	background-color: #FFFFFF;
+	color: #999999;
+}
+
+.footer-left {
+	width: 36%;
+	text-align: center;
+	display: inline-block;
+	font-size: 1.2rem;
+}
+
+.footer-right {
+	width: 36%;
+	text-align: center;
+	display: inline-block;
+	font-size: 1.2rem;
+}
+
+.footer-mid {
+	width: 27%;
+	display: inline-block;
+	text-align: center;
+}
+
+.footer-left img {
+	width: 14%;
+	max-width:30px;
+}
+
+.footer-mid img {
+	width: 45%;
+	max-width:60px;
+}
+
+.footer-right img {
+	width: 14%;
+	max-width:30px;
+}
+
+.content {
+	margin-top: 14vh;
+}
+
+.content-details {
+	top: 20vh;
+	width: 100%;
+	padding: 2vh 0;
+}
+
+.lists {
+	border-bottom: 1px solid #999999;
+}
+
+.lists img {
+	vertical-align: middle;
+	margin: 0 8px;
+}
+
+.severtime,
+.time,
+.pos {
+	margin: 5px 0;
+}
+
+.time {
+	font-size: 1.6rem;
+	margin-left: 2.8rem;
+}
+
+.severtime {
+	color: #999999;
+	font-size: 1.4rem;
+}
+
+.severtime img {
+	width: 1.2rem;
+}
+
+.pos {
+	color: #999999;
+	font-size: 1.4rem;
+}
+
+.pos img {
+	width: 1.2rem;
+	vertical-align: middle;
+}
+
+.price {
+	color: red;
+	float: right;
+	text-align: right;
+}
+
+.price img {
+	width: 1.2rem;
+}
+
+.space {
+	margin-top: 100px;
+}
