@@ -1,0 +1,192 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #29bde0;
+	height: 100%;
+	width: 100%;
+	padding-bottom: 20vw;
+}
+
+header {
+	background-color: #29bde0;
+	height: 8vh;
+	width: 100%;
+	top: 0;
+	line-height: 8vh;
+	/*垂直居中*/
+	color:#FFFFFF;
+	font-size: 2.6rem;
+	text-align: center;
+	position: fixed;
+
+
+}
+
+.header-left {
+	display:inline-block;
+}
+.header-mid{
+	display:inline-block;
+	width:75%;
+	text-align: center;
+}
+.header-right{
+	display:inline-block;
+}
+.header-left img{
+	width:25px;
+}
+.header-right img{
+	width:25px;
+}
+
+/*滚动条 start*/
+
+ ::-webkit-scrollbar {
+	width: 8px;
+	height: 4px;
+	background-color: #FFFFFF;
+}
+
+
+/*定义滚动条轨道 内阴影+圆角*/
+
+ ::-webkit-scrollbar-track {
+	background: #4aa1c8;
+}
+
+
+/*定义滑块 内阴影+圆角*/
+
+ ::-webkit-scrollbar-thumb {
+	border-radius: 3px;
+	background-color: #FFFFFF;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+	border-radius: 3px;
+	background-color: #FFFFFF;
+}
+
+.presentation {
+	margin-top:8vh;
+	height: 8vh;
+	background-color: #b9e9f5;
+	width: 100%;
+	font-size: 2.2rem;
+	line-height: 8vh;
+	/**position: fixed;**/
+}
+.attacha {
+	margin-top: 2vh;
+	font-size: 2rem;
+	color: #FFFFFF;
+	margin-left: 11.25vw;
+}
+.presentation span {
+	margin-left: 6.625vw;
+}
+
+.audioa {
+	width: 3rem;
+	float: right;
+	margin-top: calc(4vh - 1.5rem);
+	margin-right: 3.125vw;
+}
+.triangle{
+	display: block;
+	margin-left:11vw;
+	margin-top:0.1px;
+	
+}
+.video{
+	display: inline-block;
+	background: url(images/2_07.png) no-repeat;
+	background-size: 2.7rem;
+	position: absolute;
+	margin-top: calc(-4vh - 1.35rem);
+	margin-left:90vw;
+	
+}
+audio{
+	opacity: 0;
+	width: 64px;
+	height:50px;
+	float: right;
+}
+
+.game-content {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.game-box {
+	font-size:2.6rem;
+	border:0.8vw solid #FFFFFF;
+	width: 25vw;
+	height:25vw;
+	margin: 3vw;
+	text-align: center;
+	cursor: pointer;
+	background-color: #83b09a;
+}
+.game-box div{
+	height: 19.2vw;
+	line-height: 19.2vw ;
+	background-color: #f5c97b;
+}
+.game-box li{
+	list-style-type:none;
+	font-size:1.3rem;
+	line-height: 5vw;
+	color:#FFFFFF;
+	height:4.2vw;
+	width:23.6vw;
+	
+	
+}
+.game-all{
+	text-align: center;
+	
+}
+.option-list{
+	opacity:0;
+}
+.game-all:hover .option-list{
+    opacity:1;
+}
+.option{
+	display: inline;
+}
+.option img{
+	width:5.5vw;
+}
+footer {
+	height: 17vh;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	background-color: #29BDE0;
+}
+
+footer button {
+	height: 8vh;
+	line-height: 8vh;
+	/*让字垂直居中*/
+	width: 76.5625vw;
+	border: none;
+	background-color: #fbb435;
+	margin-top: 4.5vh;
+	font-size: 3.4rem;
+	color: #FFFFFF;
+}

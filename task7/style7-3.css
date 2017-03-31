@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	
+	height: 100%;
+	width: 100%;
+	padding-bottom: 20vw;
+	
+}
+main{
+	background-color: #29bde0;
+	padding-bottom: 1vh;
+
+}
+
+header {
+	background-color: #29bde0;
+	height: 8vh;
+	width: 100%;
+	top: 0;
+	line-height: 8vh;
+	/*垂直居中*/
+	color:#FFFFFF;
+	font-size: 2.6rem;
+	text-align: center;
+	position: fixed;
+
+
+}
+
+.header-left {
+	display:inline-block;
+}
+.header-mid{
+	display:inline-block;
+	width:70%;
+	text-align: center;
+}
+.header-right{
+	display:inline-block;
+}
+.header-left img{
+	width:25px;
+}
+.header-right img{
+	width:25px;
+}
+.champian{
+	text-align: center;
+	margin-top: 8vh;
+}
+.champian img{
+	display:inline-block;
+    width: 50vw;
+	text-align: center;
+}
+
+ .champian-text p{
+	
+ 	width: 75.5vw;
+	color: #ffc865;
+	font-size: 2.1rem;
+	margin:2.2vh auto;
+	text-align: justify;
+}
+.account{
+  font-size: 1.6rem;
+  color: #fff;
+
+}
+.account p{
+	word-spacing:5px;
+	width: 75.5vw;
+	margin: 0 auto;
+}
+.final-list{
+	padding:0 12.25vw;
+	border-bottom:1px solid #c7c7c7; 
+}
+.final-list p{
+    
+	width: 75.5vw;
+	color: #a6a6a6;
+	font-size: 1.4rem;
+	line-height: 1.5rem;
+}
+.day{
+	font-size: 1.8rem;
+	line-height: 3.2rem;
+}
+.time{
+	color: #c7c7c7;
+	font-size:1.4rem;
+	line-height: 3.2rem;
+	float: right;
+}
+footer{
+	height: 12vh;
+	background:rgba(152,223,240,0.5);
+	/**background-color: #99dff0;
+	opacity: 0.5;**/
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+button{
+	width: 42.5vw;
+	height: 8vh;
+	border-radius: 6px;
+	border: none;
+	color:#fff;
+
+}
+.button-left{
+	background-color: #f66f6f;
+	opacity:1;
+}
+.button-right{
+    background-color: #fbb435;
+    opacity:1;
+}
