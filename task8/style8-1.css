@@ -73,8 +73,8 @@ a:hover{
 .people-intro {
 	border: none;
 	background: #fff;
-	-webkit-box-shadow: 2px 2px 10px #909090;
-	padding: 8% ;
+	-webkit-box-shadow: 2px 2px 10px #C0C0C0;
+	padding: 12% ;
 	margin-top: 3%;
 }
 
@@ -88,11 +88,14 @@ a:hover{
 	color: #999;
 	text-align: justify;
 	
+	
+	
 }
 
 .titles {
 	text-align: center;
 	margin-top: 10%;
+	font-size:2rem;
 }
 
 .step div {
@@ -135,13 +138,25 @@ a:hover{
 .brand-box {
 	border: none;
 	background: #fff;
+    width:16%;
+    line-height: 13;
+    min-width:181px;
+    margin-bottom: 10px;
+    margin:10px auto;
+	
+}
+.brand-wrap{
+	border: none;
 	-webkit-box-shadow: 2px 2px 10px #909090;
-	text-align: center;
+	
 }
 
 .link li {
-	display: inline-block;
-	margin-left: 2%;
+	float:left;
+	margin-left: 5%;
+}
+.link a{
+	color: #000000;
 }
 
 footer {
