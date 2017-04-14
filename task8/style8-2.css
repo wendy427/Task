@@ -65,6 +65,7 @@ a:link{
 .menu div{
 	display: inline-block;
 	color: #FFFFFF;
+	height:calc(5vw + 16px);
 	padding: 2.5vw 1.5vw;
 }
 .menu a{

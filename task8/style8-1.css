@@ -54,7 +54,7 @@ a:link{
 }
 .menu div{
 	display: inline-block;
-	
+	height:calc(4vw + 16px);
 	padding: 2vw;
 }
 .menu div:hover{
@@ -103,7 +103,7 @@ a:link{
 .titles {
 	text-align: center;
 	margin-top: 10%;
-	font-size:2rem;
+	
 }
 
 .step div {

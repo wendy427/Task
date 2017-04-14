@@ -78,7 +78,7 @@ a:link{
 }
 .menu div{
 	display: inline-block;
-	
+	height:calc(5vw + 16px);
 	padding: 2.5vw 1.5vw;
 }
 .menu div:hover{
