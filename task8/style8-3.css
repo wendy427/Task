@@ -136,12 +136,23 @@ table{
 	
 }
 table td{
-	padding: 3%;
+	padding: 3.5%;
 	font-size: 1.2rem;
 	
+	
 }
+
+
 .table-titles{
 	width:50%;
+	vertical-align: middle;
+}
+.table-titles img{
+	height:10px;
+	vertical-align: middle;
+}
+.table-titles p{
+	margin-bottom:0;
 }
 .slary{
 	float: right;
