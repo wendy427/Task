@@ -45,7 +45,43 @@ a:link{
 	display: inline-block;
 
 }
+@media screen and (max-width: 768px) {
+    .header-menu {
+    display:none;
+}
+  }
+.sm-menu{
+	background-color: #29b078;
+	margin-bottom:-4px;
+}
+.nav>li{
+	text-align: center;
+	
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #555;}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar{
+	border:none;
+}
+.navbar-default .navbar-toggle {
+    border-color: #29b078;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: #1e7c55;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #175a3e;
+}
 
+
+@media screen and (min-width: 768px) {
+    .sm-menu {
+    display:none;
+}
+  }
 .menu {
 	color: #fff;
 	float: right;
