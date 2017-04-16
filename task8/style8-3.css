@@ -82,11 +82,11 @@ p{
 	margin-bottom: 0;
 }
 .menu div{
-	
+
 	display: inline-block;
 	height:calc(6vw + 16px);
 	line-height:calc(6vw + 16px) ;
-	margin-left: 0.5vw;
+	margin-left: 2.5vw;
 }
 .menu div:hover{
 	color:#FFFFFF;
