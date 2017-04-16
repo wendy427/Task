@@ -64,7 +64,7 @@ p{
 .jnshu{
 	position: absolute;
 	 margin: auto;	
-	 height: calc(7vw + 1.8rem);
+	 height: calc(6vw + 16px);
 	 display: flex;
 	 align-items: center;
 	 
@@ -82,10 +82,10 @@ p{
 	margin-bottom: 0;
 }
 .menu div{
-	font-size: 1.8rem;
+	
 	display: inline-block;
-	height:calc(7vw + 1.8rem);
-	line-height:calc(7vw + 1.8rem) ;
+	height:calc(6vw + 16px);
+	line-height:calc(6vw + 16px) ;
 	margin-left: 0.5vw;
 }
 .menu div:hover{
