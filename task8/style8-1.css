@@ -32,7 +32,9 @@ a:link{
 	text-align: right;
 	line-height: 40px;
 }
-
+p{
+	margin-bottom: 0;
+}
 .tel {
 	float: left;
 	line-height: 40px;

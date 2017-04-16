@@ -44,7 +44,9 @@ a:link{
 	text-align: right;
 	line-height: 40px;
 }
-
+p{
+	margin-bottom: 0;
+}
 .tel {
 	float: left;
 	line-height: 40px;
@@ -56,30 +58,35 @@ a:link{
 	width: 100%;
 	display: inline-block;
     position: relative;
+    padding:0 10vw 0 8vw;
 
 }
 .jnshu{
 	position: absolute;
 	 margin: auto;	
-	 top: 2vw;
-	 left: 5vw;
+	 height: calc(7vw + 1.8rem);
+	 display: flex;
+	 align-items: center;
+	 
 	 
    
 }
 .jnshu img{
-	width:60%;
+	width:70%;
 	
 }
 .menu {
 	color: #fff;
 	float: right;
-	margin-right: 6vw;
+	
 	margin-bottom: 0;
 }
 .menu div{
+	font-size: 1.8rem;
 	display: inline-block;
-	height:calc(5vw + 16px);
-	padding: 2.5vw 1.5vw;
+	height:calc(7vw + 1.8rem);
+	line-height:calc(7vw + 1.8rem) ;
+	margin-left: 0.5vw;
 }
 .menu div:hover{
 	color:#FFFFFF;
@@ -98,6 +105,10 @@ main {
 	margin-top:15px;
 	border-bottom: 1px solid #edf1f2;
 	padding-bottom: 15px;
+}
+.direction span{
+	display: inline-block;
+	margin-right:4px;
 }
 .titles{
 	margin-top: 15px;
@@ -137,7 +148,7 @@ table{
 }
 table td{
 	padding: 3.5%;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	
 	
 }
@@ -145,11 +156,12 @@ table td{
 
 .table-titles{
 	width:50%;
-	vertical-align: middle;
+	
 }
 .table-titles img{
-	height:1.6rem;
-	vertical-align: middle;
+	margin-top:-1px;
+	height:13px;
+	
 }
 .table-titles p{
 	margin-bottom:0;
