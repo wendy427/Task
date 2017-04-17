@@ -45,6 +45,8 @@ p{
 	background-color: #29b078;
 	width: 100%;
 	display: inline-block;
+    position: relative;
+    padding:0 10vw 0 8vw;
 
 }
 @media screen and (max-width: 768px) {
@@ -84,16 +86,55 @@ p{
     display:none;
 }
   }
+@media screen and (width: 768px) {
+    .header-menu {
+    
+    display: inline-block;
+}
+  }
+.navbar-header{
+	position: relative;
+}
+.sm-jnshu{
+	height: 50px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	margin-left: 5vw;
+}
+.sm-jnshu img{
+	width:70%;
+	
+}
+.jnshu{
+	position: absolute;
+	 margin: auto;	
+	 height: calc(6vw + 16px);
+	 display: flex;
+	 align-items: center;
+	
+	 
+   
+}
+.jnshu img{
+	width:100%;
+	
+}
 .menu {
 	color: #fff;
 	float: right;
-	margin-right: 6vw;
+	
 	margin-bottom: 0;
 }
 .menu div{
+
 	display: inline-block;
-	height:calc(4vw + 16px);
-	padding: 2vw;
+	height:calc(6vw + 16px);
+	line-height:calc(6vw + 16px);
+	margin-left: 2.5vw;
+}
+.menu a{
+	color:#fff;
 }
 .menu div:hover{
 	color:#FFFFFF;
