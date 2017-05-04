@@ -1,0 +1,97 @@
+@charset "utf-8";
+* {
+	margin:0;
+	padding:0;
+	text-decoration: none;
+}
+html {
+    font-size: 62.5%;
+}
+body{
+	
+	background-color: #eff0f4;
+	
+}
+    @c:#fff;
+    @text_c:#e1e5e7;
+    @fs:3.2rem;
+    @h:8.8rem;
+    @w:100%;
+    @text_m:25px; 
+    @m:22px;
+    @m_t:20px;
+header{
+    div{ 
+    @c:#5fc0cd;
+    
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height:@h;
+	width:@w;
+	background-color:@c;
+	
+}
+ a{
+      text-decoration:none;
+      color: @c;
+ }
+}  
+ .close{
+     a{
+     margin-left: @m;
+     font-size: @fs;}
+ }
+ .login{
+     a{
+     font-size: @fs + 0.2rem;}
+ }
+ .register{
+    
+     a{
+     margin-right: @m;
+     font-size: @fs;}
+ }
+ .input_content{
+     display: flex;
+     align-items: center;
+     height: @h;
+     width: @w;
+     
+     background-color: @c;
+  
+     margin-top:@m_t;
+     img{
+         width:@fs - 1rem;
+         margin-left:@text_m;
+         
+     }
+     input[type="text"]{
+         border:none;
+         font-size: @fs;
+         border-left: 1px solid @text_c;
+         margin-left: @text_m;
+         text-indent: @text_m;
+         
+     }
+ }
+button{
+    height: @h;
+    width: @w;
+    @c:#5fc0cd;
+    @text_c:#fff;
+    background-color: @c;
+    border: none;
+    color: @text_c;
+    font-size: @fs + 0.4rem;
+    margin-top: @m_t + 10px;
+}
+.forget{
+    a{
+        @c:#5FC0CD;
+        float: right;
+        margin-top: @m_t - 10px;
+        font-size: @fs - 0.6rem;
+        color: @c;
+    }
+}
