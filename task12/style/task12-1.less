@@ -138,10 +138,13 @@ footer{
     @w:35%;
     @c:#fff;
     @c_2:#5fc0cd;
+    @br:0.5rem;
     width: 100%;
+    @pd:1.5rem;
+    
     display: flex;
     justify-content: space-between;
-    padding:1.5rem 0;
+      padding:@pd 0;
      position: fixed;
      bottom: 0;
     .button(@x:@c,@y:@c_2,@z:@c_2){
@@ -150,6 +153,7 @@ footer{
         border: 1px solid @y;
         background-color: @x;
         color: @z;
+        border-radius: @br;
         
     }
     button:first-child{

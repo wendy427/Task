@@ -124,6 +124,7 @@ footer button:first-child {
   border: 1px solid #5fc0cd;
   background-color: #ffffff;
   color: #5fc0cd;
+  border-radius: 0.5rem;
   margin-left: 10%;
 }
 footer button:last-child {
@@ -132,5 +133,6 @@ footer button:last-child {
   border: 1px solid #5fc0cd;
   background-color: #5fc0cd;
   color: #ffffff;
+  border-radius: 0.5rem;
   margin-right: 10%;
 }
