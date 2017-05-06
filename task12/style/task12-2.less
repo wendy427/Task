@@ -1,0 +1,212 @@
+@charset "utf-8";
+@import "common";
+body{
+    padding-bottom: 15%;
+}
+header {
+    @c: #fff;
+    @c_2: #5ec0ce;
+    @h: 8vh;
+    @w: 100%;
+    @fs: 1.8rem;
+    @br: 0.5rem;
+
+    background-color: @c_2;
+    height: @h;
+    width: @w;
+
+    text-align: center;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
+    div {
+        @c: #55a8b3;
+        @w: 12rem;
+        @mt: 1vh;
+
+        width: @w;
+        background-color: @c;
+        height: @h - 2rem;
+        margin: @mt auto;
+        /*使文字居中显示*/
+        border-radius: @br;
+    }
+    span {
+        @w: 50%;
+        line-height: @h - 2vh;
+        /*文字达到垂直居中的效果*/
+        border-radius: @br;
+        display: inline-block;
+        /*只有block、inline-block才能设置宽高*/
+        width: @w;
+        font-size: @fs;
+    }
+    span:first-child {
+        color: @c;
+    }
+   
+   .find{
+        color: @c_2;
+        background-color: @c;
+    }
+    .position{
+    @img:30px;
+    @pos:-88px;
+    @mt:-6.2vh;
+    @mr:2%;
+    @bs:52px;
+    
+    width: @img;
+    height: @img;
+    background: url(../img/result.png) no-repeat 0px @pos;
+    position: absolute;
+    margin-top: @mt;
+    right: @mr;
+    background-size: @bs;
+
+}
+}
+.selections{
+    @mt:8vh;
+    @h:1.9rem;
+    @w:100%;
+    @fs:1.6rem;
+    @c:#fff;
+    @c_2:#999;
+    @p:1%;
+    @bort:1px;
+    
+    position: fixed;
+    z-index: 1;
+    top: @mt;
+    height: @h;
+    width: @w;
+    font-size: @fs;
+    background: @c;
+    border-bottom: @bort solid @c_2;
+    padding: 0 @p;
+    select{
+    @w:32%;
+    width: @w;
+    color: @c_2;
+    border: none;
+    border-right: 1px solid @c_2;
+    &:focus{
+        outline: 0;
+    }
+    &:last-child{
+        border-right: none;
+    }
+    }
+}
+main{
+    @mt:12vh;
+    margin-top:@mt;
+}
+.content{
+    @ml:30px;
+    @mtb:8px;
+    @bc:#e1e5e7;
+    @bw:1px;
+    
+    @w:100%;
+    
+    padding: @mtb @ml;
+    border-bottom: @bw solid @bc;
+    
+    position: relative;
+    p{
+        @c:#b3b3b3;
+        @fs:1.4rem;
+        font-size: @fs;
+        color: @c;
+    }
+    div{
+        @d_mt:3px;
+        @d_mb:3px;
+        margin-top: @d_mt;
+        margin-bottom: @d_mb;
+    }
+    span{
+        display: inline-block;
+        @fs:1.6rem;
+        font-size: @fs;
+   
+   &:first-child{
+    
+    word-break: keep-all;
+    /* 不换行 */
+    white-space: nowrap;
+    /* 不换行 */
+    overflow: hidden;
+    /* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow: ellipsis;
+    /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+   }
+    &:last-child{
+            @c:#e63b0e;
+            color:@c;
+            float: right;
+        }
+        }
+    .pic{
+    
+    @w:1.3rem;
+    @ml:-18px;
+    
+    position: absolute;
+    width: @w;
+    margin-left: @ml;
+    
+    }
+    .pic2{
+         @w:1.2rem;
+         width: @w;
+         @r:10px;
+         
+        position: absolute;
+        right: @r;
+    }
+}
+footer{
+    @c:#fff;
+    @c_2:#b3b3b3;
+    @c_3:#5fc0cd;
+    @h:8vh;
+    @w:100%;
+    @fs:1.2rem;
+    @d_ml:20%;
+    @d_mr:20%;
+    
+    position: fixed;
+    bottom: 0;
+    height:@h ;
+    width: @w;
+    background-color: @c;
+    
+    font-size: @fs;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    div{
+        display: flex;
+       flex-direction: column;
+       &:first-child{
+           margin-left: @d_ml;
+           color: @c_3;
+       }
+       &:last-child{
+           margin-right: @d_mr;
+           color:@c_2;
+       }
+    }
+    .img-a{
+        width:22px;
+    }
+    .img-b{
+        width: 40px;
+        
+    }
+}

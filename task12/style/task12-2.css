@@ -1,0 +1,151 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  padding-bottom: 15%;
+}
+header {
+  background-color: #5ec0ce;
+  height: 8vh;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+header div {
+  width: 12rem;
+  background-color: #55a8b3;
+  height: 6vh;
+  margin: 1vh auto;
+  /*使文字居中显示*/
+  border-radius: 0.5rem;
+}
+header span {
+  line-height: 6vh;
+  /*文字达到垂直居中的效果*/
+  border-radius: 0.5rem;
+  display: inline-block;
+  /*只有block、inline-block才能设置宽高*/
+  width: 50%;
+  font-size: 1.8rem;
+}
+header span:first-child {
+  color: #ffffff;
+}
+header .find {
+  color: #5ec0ce;
+  background-color: #ffffff;
+}
+header .position {
+  width: 30px;
+  height: 30px;
+  background: url(../img/result.png) no-repeat 0px -88px;
+  position: absolute;
+  margin-top: -6.2vh;
+  right: 2%;
+  background-size: 52px;
+}
+.selections {
+  position: fixed;
+  z-index: 1;
+  top: 8vh;
+  height: 1.9rem;
+  width: 100%;
+  font-size: 1.6rem;
+  background: #ffffff;
+  border-bottom: 1px solid #999999;
+  padding: 0 1%;
+}
+.selections select {
+  width: 32%;
+  color: #999999;
+  border: none;
+  border-right: 1px solid #999999;
+}
+.selections select:focus {
+  outline: 0;
+}
+.selections select:last-child {
+  border-right: none;
+}
+main {
+  margin-top: 12vh;
+}
+.content {
+  padding: 8px 30px;
+  border-bottom: 1px solid #e1e5e7;
+  position: relative;
+}
+.content p {
+  font-size: 1.4rem;
+  color: #b3b3b3;
+}
+.content div {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.content span {
+  display: inline-block;
+  font-size: 1.6rem;
+}
+.content span:first-child {
+  word-break: keep-all;
+  /* 不换行 */
+  white-space: nowrap;
+  /* 不换行 */
+  overflow: hidden;
+  /* 内容超出宽度时隐藏超出部分的内容 */
+  text-overflow: ellipsis;
+  /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+.content span:last-child {
+  color: #e63b0e;
+  float: right;
+}
+.content .pic {
+  position: absolute;
+  width: 1.3rem;
+  margin-left: -18px;
+}
+.content .pic2 {
+  width: 1.2rem;
+  position: absolute;
+  right: 10px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 8vh;
+  width: 100%;
+  background-color: #ffffff;
+  border-top: 1px solid #b3b3b3;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+}
+footer div:first-child {
+  margin-left: 20%;
+  color: #5fc0cd;
+}
+footer div:last-child {
+  margin-right: 20%;
+  color: #b3b3b3;
+}
+footer .img-a {
+  width: 22px;
+}
+footer .img-b {
+  width: 40px;
+}
