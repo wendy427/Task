@@ -1,0 +1,172 @@
+@import "common";
+body {
+    background-color: #29bde0;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 17vh;
+}
+header{
+    @c:#fff;
+    @fs:2.6rem;
+    @m:20px;
+    color: @c;
+    font-size: @fs;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img{
+        width:25px;
+    }
+    img:first-child{
+        margin-left: @m;
+    }
+    img:last-child{
+        margin-right: @m;
+    }
+}
+.presentation {
+    @c:#b9e9f5;
+    @w:100%;
+    @h:8vh;
+    @fs:2.2rem;
+    
+    height: @h;
+    background-color: @c;
+    width: @w;
+    font-size: @fs;
+    line-height: @h;
+   
+   span {
+    @mr:6.625vw;
+    margin-left: @mr;
+}
+}
+.triangle{
+    @ml:11vw;
+    @mt:0.1px;
+    margin-left:@ml;
+    margin-top:@mt;
+    
+}
+.video{
+    @bsize:2.7rem;
+    @mt:~'calc(-4vh - 1.35rem)';
+    @ml:90vw;
+    
+    display: inline-block;
+    background: url(../images/2_07.png) no-repeat;
+    background-size: @bsize;
+    position: absolute;
+    margin-top: @mt;
+    margin-left:@ml;
+    
+}
+audio{
+    @w:64px;
+    @h:50px;
+    opacity: 0;
+    width: @w;
+    height:@h;
+    float: right;
+}
+
+.attacha {
+    @c:#fff;
+    @mt:2vh;
+    @fs:2rem;
+    @ml:11.25vw;
+    
+    margin-top: @mt;
+    font-size: @fs;
+    color: @c;
+    margin-left: @ml;
+}
+.game-content {
+    @mt:3vw;
+    margin-top:@mt;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.game-box {
+    @c:#fff;
+    @c_2:#83b09a;
+    @fs:2.6rem;
+    @ml:2vw;
+    font-size:@fs;
+    @wh:25vw;
+    @b:0.8vw;
+    
+    border:@b solid @c;
+    width: @wh;
+    height:@wh;
+    margin:@ml;
+    text-align: center;
+    cursor: pointer;
+    background-color:@c_2; 
+    
+ p{
+     @c:#f5c97b;
+    @h:19.2vw;
+    height: @h;
+    line-height: @h ;
+    background-color: @c;
+}
+li{
+    @c:#fff;
+    @fs:1.3rem;
+    @h:4.2vw;
+    @lh:5vw;
+    @w:23.6vw;
+    
+    font-size:@fs;
+    line-height: @lh;
+    color:@c;
+    height:@h;
+    width:@w;
+}}
+.option-list{
+    opacity:0;
+}
+.game-all:hover .option-list{
+    opacity:1;
+}
+.option{
+    @w:5.5vw;
+    display: inline-block;
+    img{
+        
+    width:@w;
+}
+}
+footer{
+    @h:17vh;
+    @w:100%;
+    @c:#29BDE0;
+    height: @h;
+    width: @w;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: @c;
+    button{
+        @fs:3.4rem;
+        @c:#fff;
+        @c_2:#fbb435;
+        @h:8vh;
+        @w:76.5625vw;
+        @mt:4.5vh;
+    height: @h;
+    line-height: @h;
+    /*让字垂直居中*/
+    width: @w;
+    border: none;
+    background-color: @c_2;
+    margin-top: @mt;
+    font-size: 3.4rem;
+    color: @c;
+        
+    }
+}
