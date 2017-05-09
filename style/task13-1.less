@@ -1,0 +1,114 @@
+@import "common";
+body{
+    @c:#f0f0f0;
+    background-color: @c;
+}
+header{
+    @ml:30px;
+    display: flex;
+    align-items: center;
+    img{
+        margin-left: @ml;
+    }
+}
+.container(@mt){
+    @c:#fff;
+    @c_2:#c9c9c9;
+    @w:88.75vw;
+    @b:1px;
+    
+    
+    background-color: @c;
+    width:@w;
+    border: @b solid @c_2;
+    margin:@mt auto;
+    text-align: center;
+    position: relative;
+  
+}
+.container-1{
+    @h:10.8vh;
+    @mt:2vh;
+     @fs:2.2rem;
+     line-height:@h ;
+     text-align: center;
+    .container(@mt);
+    height:@h;
+    span{
+    @c:#9a9a9a;
+    font-size: @fs;
+    color: @c;
+      
+    }
+    img{
+        @t:~'calc(5.4vh - 15px)';
+        @r:3%;
+        @m_w:20px;
+        position: absolute;
+        right:@r;
+        top:@t;
+        max-width:@m_w;
+    }
+}
+.contanier-2{
+    @mt:3vh;
+    .container(@mt);
+    p{
+        @c:#787878;
+        @fs:2rem;
+        font-size: @fs;
+        color: @c;
+    }
+    p:first-child{
+        @c:#fbb435;
+        @lh:10vh;
+        @fs:2.6rem;
+        @b:1px;
+        border-bottom: @b solid @c;
+        font-size: @fs;
+        color:@c;
+        line-height: @lh;
+    }
+    button{
+        @c:#fff;
+        @c_2:#29BDE0;
+        @h:8.5vh;
+        @w:72vw;
+        @fs:2.2rem;
+        @mt:2.5vh;
+        height:@h;
+        width: @w;
+        color: @c;
+        background-color: @c_2;
+        font-size: @fs;
+        margin:@mt auto;
+    }
+    img{
+        @t:~'calc(26vh + 48px)';
+        @w:~'calc(4.25vh - 10px)';
+        @r:1.2vw;
+        position: absolute;
+        right: @r;
+        top:@t;
+        width:@w;
+    }
+}
+.circle{
+    @c:#F0F0F0;
+    @c_2:#29BDE0;
+    @br:50%;
+    @mt:2.5vh;
+    @mr:0.5rem;
+    @img:18px;
+    margin:@mt @mr;
+    display: inline-block;
+    width: @img;      
+    height: @img;      
+    background-color:@c;      
+    border-radius: @br;      
+    -moz-border-radius: @br;      
+    -webkit-border-radius: @br;
+    &:hover{
+    background-color: @c_2;
+}
+}

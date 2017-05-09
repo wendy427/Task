@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+header {
+  height: 8vh;
+  background: #29bde0;
+  width: 100%;
+  display: fixed;
+}
+body {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 12vh;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header span {
+  color: #ffffff;
+  font-size: 2.6rem;
+}
+header img {
+  width: 25px;
+}
+header img:first-child {
+  margin-left: 30px;
+}
+header img:last-child {
+  margin-right: 30px;
+}
+.content-1 {
+  background-color: #29bde0;
+  padding-bottom: 8px;
+}
+.content-1 div {
+  text-align: center;
+}
+.content-1 img {
+  width: 50vw;
+  max-width: 300px;
+}
+.content-1 p {
+  font-size: 1.6rem;
+  color: #ffffff;
+  word-spacing: 5px;
+  width: 75.5vw;
+  margin: 0 auto 5px;
+}
+.content-1 .wonderful {
+  color: #ffc865;
+  font-size: 2.1rem;
+  margin: 2.5vh auto 5vh;
+  text-align: justify;
+}
+.accounts {
+  border-bottom: 1px solid #dddddd;
+  padding: 0 12.25vw 10px;
+}
+.accounts p {
+  color: #a6a6a6;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+.accounts span {
+  line-height: 3.2rem;
+}
+.accounts .day {
+  font-size: 1.8rem;
+}
+.accounts .time {
+  color: #c7c7c7;
+  font-size: 1.4rem;
+  float: right;
+}
+footer {
+  bottom: 0;
+  background: rgba(152, 223, 240, 0.5);
+  position: fixed;
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer button {
+  width: 42.5vw;
+  height: 8vh;
+  border-radius: 6px;
+  border: none;
+  color: #ffffff;
+  opacity: 1;
+}
+footer .button-l {
+  background-color: #f66f6f;
+}
+footer .button-r {
+  background-color: #fbb435;
+}

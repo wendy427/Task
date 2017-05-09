@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+header {
+  height: 8vh;
+  background: #29bde0;
+  width: 100%;
+  display: fixed;
+}
+body {
+  background-color: #29bde0;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 17vh;
+}
+header {
+  color: #ffffff;
+  font-size: 2.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header img {
+  width: 25px;
+}
+header img:first-child {
+  margin-left: 20px;
+}
+header img:last-child {
+  margin-right: 20px;
+}
+.presentation {
+  height: 8vh;
+  background-color: #b9e9f5;
+  width: 100%;
+  font-size: 2.2rem;
+  line-height: 8vh;
+}
+.presentation span {
+  margin-left: 6.625vw;
+}
+.triangle {
+  margin-left: 11vw;
+  margin-top: 0.1px;
+}
+.video {
+  display: inline-block;
+  background: url(../images/2_07.png) no-repeat;
+  background-size: 2.7rem;
+  position: absolute;
+  margin-top: calc(-4vh - 1.35rem);
+  margin-left: 90vw;
+}
+audio {
+  opacity: 0;
+  width: 64px;
+  height: 50px;
+  float: right;
+}
+.attacha {
+  margin-top: 2vh;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-left: 11.25vw;
+}
+.game-content {
+  margin-top: 3vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.game-box {
+  font-size: 2.6rem;
+  border: 0.8vw solid #ffffff;
+  width: 25vw;
+  height: 25vw;
+  margin: 2vw;
+  text-align: center;
+  cursor: pointer;
+  background-color: #83b09a;
+}
+.game-box p {
+  height: 19.2vw;
+  line-height: 19.2vw;
+  background-color: #f5c97b;
+}
+.game-box li {
+  font-size: 1.3rem;
+  line-height: 5vw;
+  color: #ffffff;
+  height: 4.2vw;
+  width: 23.6vw;
+}
+.option-list {
+  opacity: 0;
+}
+.game-all:hover .option-list {
+  opacity: 1;
+}
+.option {
+  display: inline-block;
+}
+.option img {
+  width: 5.5vw;
+}
+footer {
+  height: 17vh;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background-color: #29bde0;
+}
+footer button {
+  height: 8vh;
+  line-height: 8vh;
+  /*让字垂直居中*/
+  width: 76.5625vw;
+  border: none;
+  background-color: #fbb435;
+  margin-top: 4.5vh;
+  font-size: 3.4rem;
+  color: #ffffff;
+}

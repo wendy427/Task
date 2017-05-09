@@ -1,0 +1,130 @@
+@import "common";
+body {
+    @pb:12vh;
+    height: 100%;
+    width: 100%;
+    padding-bottom: @pb;
+    
+}
+header{
+    @c:#fff;
+    @fs:2.6rem;
+    @w:25px;
+    @m:30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    span{
+        color: @c;
+        font-size: @fs;
+    }
+    img{
+    width: @w;
+    }
+    img:first-child{
+        margin-left:@m;
+    }
+    img:last-child{
+        margin-right:@m;
+    }
+}
+.content-1{
+    @c:#fff;
+    @c_2:#29bde0;
+    @c_3:#ffc865;
+    @img_w:50vw;
+    @fs:1.6rem;
+    @fs_2:2.1rem;
+    background-color: @c_2;
+    padding-bottom: 8px;
+    div{
+        text-align: center;
+    }
+    img{
+       
+        width: @img_w;
+        max-width: 300px;
+        
+    }
+    
+    p{
+        font-size: @fs;
+        color: @c;
+        word-spacing:5px;
+        width: 75.5vw;
+        margin: 0 auto 5px;
+    }
+    .wonderful{
+    
+    color: @c_3;
+    font-size: @fs_2;
+    margin:2.5vh auto 5vh;
+    text-align: justify;
+}
+
+}
+.accounts{
+    @c:#dddddd;
+    @fs:1.8rem;
+    @lh:3.2rem;
+    @c_2:#c7c7c7;
+    @fs_2:1.4rem;
+    @c_3:#a6a6a6;
+    @fs_3:1.4rem;
+    @lh_3:1.6rem;
+    @b:1px;
+    @pl:12.25vw;
+    @pt:10px;
+    border-bottom: @b solid @c;
+    padding:0 @pl @pt;
+    p{
+    color: @c_3;
+    font-size: @fs_3;
+    line-height: @lh_3;
+    }
+    span{
+       line-height: @lh;
+    }
+    .day{
+        font-size: @fs;
+    }
+    .time{
+        color: @c_2;
+        font-size:@fs_2;
+        float: right;
+    }
+}
+footer{
+    @c:#fff;
+    @c_2:#f66f6f;
+    @c_3:#fbb435;
+    @w:100%;
+    @h:12vh;
+    @b_w:42.5vw;
+    @b_h:8vh;
+    @br:6px;
+    bottom: 0;
+    background:rgba(152,223,240,0.5);
+    position: fixed;
+    
+    width: @w;
+    height: @h;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     button{
+     width: @b_w;
+    height: @b_h;
+    border-radius: @br;
+    border: none;
+    color:@c;
+    
+    opacity:1;
+     }
+     .button-l{
+         background-color: @c_2;
+     }
+    .button-r{
+         background-color: @c_3;
+    }
+}
